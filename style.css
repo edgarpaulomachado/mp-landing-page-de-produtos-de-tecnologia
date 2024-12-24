@@ -1,0 +1,131 @@
+@import url(../css/global.css);
+
+header {
+    display: flex;
+    width: 1440px;
+    height: 91px;
+    border-bottom: 1px solid var(--gray);
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    width: 452.67px;
+    height: 26px;
+    margin: 32px 50px;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 96.67px;
+    height: 25.29px;
+}
+
+.dropDown{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.dropDown p {
+    font-size: 20px;
+    color: var(--white);
+}
+
+.dropDown img {
+    cursor: pointer;
+    width: 14px;
+    height: 14px;
+}
+
+li a {
+    font-size: 20px;
+    color: var(--white);
+    text-decoration: none;
+}
+
+.left {
+    display: flex;
+    width: 198px;
+    height: 42px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 28px 100px;
+}
+
+#cart {
+    width: 28px;
+    height: 22px;
+}
+
+#search {
+    width: 22px;
+    height: 42px;
+}
+
+button {
+    width: 94px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--white);
+    color: var(--black);
+    font-size: 16px;
+}
+
+.hero {
+    position: absolute;
+    display: flex;
+    height: 736px;
+    justify-content: space-between;
+    background-color: var(--black);
+}
+
+.description {
+    position: absolute;
+    width: 709px;
+    margin: 52px 50px;
+}
+
+.description p {
+    color: var(--gray);
+    font-size: 25px;
+}
+
+.title {
+    width: 647px;
+    height: 210px;
+    margin-top: 70px;
+}
+
+.title p {
+    width: 400px;
+    height: 210px;
+    color:  var(--gray);
+    font-size: 60px;
+    font-weight: 200;
+}
+
+.desc button {
+    position: absolute;
+    width: 173px;
+    height: 40px;
+    margin: 430px 50px;
+    border-radius: 17px;
+    border: none;
+    background: linear-gradient(90deg, #1371EF, #E539A2);
+    color: var(--white);
+}
+
+.desc img {
+    position: absolute;
+    margin-top: 453px;
+}
+
+.banner {
+    position: relative;
+    width: 737.45px;
+    height: 930.69px;
+    margin: 33px 650px;
+}
